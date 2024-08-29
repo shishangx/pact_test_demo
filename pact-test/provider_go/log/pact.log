@@ -1,0 +1,24 @@
+# Logfile created on 2024-08-30 02:27:35 +0800 by logger.rb/v1.4.3
+I, [2024-08-30T02:27:35.193236 #63660]  INFO -- : Running example 'Verifying a pact between UserConsumer and UserProvider Given a user exists a request for a user with GET /users/1 returns a response which has status code 200'
+I, [2024-08-30T02:27:35.193340 #63660]  INFO -- : Sending GET request to path: "/users/1" with headers: {"HTTP_ACCEPT"=>"application/json, text/plain, */*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a user exists"}]}, see debug logs for body
+D, [2024-08-30T02:27:35.193354 #63660] DEBUG -- : body :
+I, [2024-08-30T02:27:35.199893 #63660]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"12", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Thu, 29 Aug 2024 18:27:35 GMT"}, see debug logs for body
+D, [2024-08-30T02:27:35.199948 #63660] DEBUG -- : body: Hello, Pact!
+I, [2024-08-30T02:31:54.759227 #66049]  INFO -- : Running example 'Verifying a pact between UserConsumer and UserProvider Given a user exists a request for a user with GET /users/1 returns a response which has status code 200'
+I, [2024-08-30T02:31:54.759518 #66049]  INFO -- : Sending GET request to path: "/users/1" with headers: {"HTTP_ACCEPT"=>"application/json, text/plain, */*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a user exists"}]}, see debug logs for body
+D, [2024-08-30T02:31:54.759534 #66049] DEBUG -- : body :
+I, [2024-08-30T02:31:54.766218 #66049]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"59", "Content-Type"=>"application/json", "Date"=>"Thu, 29 Aug 2024 18:31:54 GMT"}, see debug logs for body
+D, [2024-08-30T02:31:54.766255 #66049] DEBUG -- : body: {"age":31,"email":"lisa@example.com","id":1,"name":"Lisa"}
+
+I, [2024-08-30T02:32:00.467460 #66170]  INFO -- : Running example 'Verifying a pact between UserConsumer and UserProvider Given a user exists a request for a user with GET /users/1 returns a response which has status code 200'
+I, [2024-08-30T02:32:00.467602 #66170]  INFO -- : Sending GET request to path: "/users/1" with headers: {"HTTP_ACCEPT"=>"application/json, text/plain, */*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a user exists"}]}, see debug logs for body
+D, [2024-08-30T02:32:00.467618 #66170] DEBUG -- : body :
+I, [2024-08-30T02:32:00.474236 #66170]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"59", "Content-Type"=>"application/json", "Date"=>"Thu, 29 Aug 2024 18:32:00 GMT"}, see debug logs for body
+D, [2024-08-30T02:32:00.474296 #66170] DEBUG -- : body: {"age":31,"email":"lisa@example.com","id":1,"name":"Lisa"}
+
+I, [2024-08-30T02:33:18.478596 #66899]  INFO -- : Running example 'Verifying a pact between UserConsumer and UserProvider Given a user exists a request for a user with GET /users/1 returns a response which has status code 200'
+I, [2024-08-30T02:33:18.478871 #66899]  INFO -- : Sending GET request to path: "/users/1" with headers: {"HTTP_ACCEPT"=>"application/json, text/plain, */*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"a user exists"}]}, see debug logs for body
+D, [2024-08-30T02:33:18.478888 #66899] DEBUG -- : body :
+I, [2024-08-30T02:33:18.486077 #66899]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"59", "Content-Type"=>"application/json", "Date"=>"Thu, 29 Aug 2024 18:33:18 GMT"}, see debug logs for body
+D, [2024-08-30T02:33:18.486130 #66899] DEBUG -- : body: {"age":31,"email":"lisa@example.com","id":1,"name":"Lisa"}
+

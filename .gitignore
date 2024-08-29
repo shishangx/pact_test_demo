@@ -1,0 +1,6 @@
+.vscode/
+.DS_Store
+node_modules
+pact-test/consumer/node_modules
+pact-test/provider/node_modules
+pact-test/provider_go/pact/lib
